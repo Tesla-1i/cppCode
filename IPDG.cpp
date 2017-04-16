@@ -171,7 +171,7 @@ class Player5678: public Player    //用学号后四位为5678
 {
 
     //无新增数据
-    int oppHistory[5];
+    int oppHistory[100];
 public :
 	//必须提供无参构造函数
     Player5678()

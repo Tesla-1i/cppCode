@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ipdgTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\AFDS\AppData\Local\Temp\RSP31D8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ipdgTest.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\1615\cppCode\cppCode\ipdgTest\main.cpp"
+"E:\1615\cppCode\cppCode\ipdgTest\ipdg.cpp"
+]
+Creating command line "cl.exe @C:\Users\AFDS\AppData\Local\Temp\RSP31D8.tmp" 
+Creating temporary file "C:\Users\AFDS\AppData\Local\Temp\RSP31D9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ipdgTest.pdb" /debug /machine:I386 /out:"Debug/ipdgTest.exe" /pdbtype:sept 
+.\Debug\main.obj
+.\Debug\ipdg.obj
+]
+Creating command line "link.exe @C:\Users\AFDS\AppData\Local\Temp\RSP31D9.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+e:\1615\cppcode\cppcode\ipdgtest\ipdg.h(12) : error C2504: 'Player' : base class undefined
+e:\1615\cppcode\cppcode\ipdgtest\main.cpp(159) : error C2440: '=' : cannot convert from 'class Player2326 *' to 'class Player *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+ipdg.cpp
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+ipdgTest.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
